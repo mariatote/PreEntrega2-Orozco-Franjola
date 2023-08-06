@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;900&family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+
+    <title>ROADBURGER</title>
+
+<!--Favicon-->
+<link rel="icon" href="../assets/icon/burger.png" >
+<!--css-->
+<link rel="stylesheet" href="../css/estilos.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html">
+            <img src="../assets/road-burger-logo.png" alt="Logo Road Burger">
+        </div>
+        <nav>
+           <ul class="nav-links">
+                <li><a href="../paginas/menu.html">Menú</a></li>
+                <li><a href="../paginas/delivery.html">Delivery</a></li>
+                <li><a href="../paginas/roadmerch.html">Road Merch</a></li>
+                <li><a href="../paginas/quienessomos.html">Quienes Somos</a></li>
+                <li><a href="#">Contactos</a></li>
+           </ul>            
+        </nav>
+       
+    </header>
+
+
+<div class="contacto">
+
+<h3>Escribenos</h3>
+<br>
+    <form action="procesar.php" method="post">
+        <div>
+          <!-- input nombre-->
+          <label for="Nombre:">Nombre</label> 
+          <input type="text" name="Nombre" placeholder="escribe tu nombre">
+        </div>
+        
+        <div>
+          <!-- input apellido -->
+            <label for="Nombre:">apellido</label> 
+            <input type="text" name="apellido" placeholder="escribe tu apellido">
+        </div>
+        
+        <div>
+          <!-- input mail -->
+          <label for="email">Email</label>
+          <input type="texto" name="email" placeholder="tumail@mail.com">
+        </div>
+        
+        
+          <!--input pass  -->
+          <label for="clave">contraseña</label>
+          <input type="clave" name="email" placeholder="*******" required="">
+        
+        
+        <!-- radio -->
+        <h3>selecione su género</h3>
+        <di>
+          <label for="genero">Femenino</label>
+          <input type="radio" name="Femenino" value="femenino">
+        </di>
+        
+        <div>
+          <label for="genero">Masculino</label>
+          <input type="radio" name="Masculino" value="Masculino">
+        </div>
+        
+        <div>
+          <label for="genero">Otre</label>
+          <input type="radio" name="Otre" value="Otre">
+        </div>
+        
+        
+        <!-- enviar -->
+        <button type="submit">enviar</button>
+        <button type="reset">Borrar formulario</button>
+        
+    </form>
+
+    </div>
+</body>
+</html>
