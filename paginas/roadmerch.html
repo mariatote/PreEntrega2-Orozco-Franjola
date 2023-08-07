@@ -12,30 +12,85 @@
 
 <!--Favicon-->
 <link rel="icon" href="../assets/icon/burger.png" >
+
+<!--cssbootstrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
 <!--css-->
 <link rel="stylesheet" href="../css/estilos.css">
 
 </head>
 
 <body>
-    <header class="header">
-        <div class="logo">
-            <a href="../index.html">
-            <img src="../assets/road-burger-logo.png" alt="Logo Road Burger">
-        </div>
-        <nav>
-           <ul class="nav-links">
-                <li><a href="../paginas/menu.html">Menú</a></li>
-                <li><a href="../paginas/delivery.html">Delivery</a></li>
-                <li><a href="#">Road Merch</a></li>
-                <li><a href="../paginas/quienessomos.html">Quienes Somos</a></li>
-                <li><a href="../paginas/contactos.html">Contactos</a></li>
-           </ul>            
-        </nav>
-    </header>
+
+    <!-- Inicio del menu -->
+
+   
+    
+    <nav class="navbar navbar-expand-md  mb-4 fs-4"   style="bg:#FFF ;">
+      <div class="container-fluid">
+      <!-- icono o nombre -->
+
+      <a class="navbar-brand" href="../index.html">
+        <img src="../assets/road-burger-logo.png"  width="80px" alt="foto hamburguesa">
+        
+      </a>
+          
+      <!-- boton del menu -->
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <!-- elementos del menu colapsable -->
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../paginas/menu.html">Menú</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../paginas/delivery.html">Delivery</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../paginas/roadmerch.html">Road Merch</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../paginas/quienessomos.html">Quienes Somos</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="../paginas/contactos.html">Contactanos</a>
+          </li>
+          
+          
+        </ul>
+
+       
+
+
+        
+        
+      </div>
+   
+      </div>  
+    </nav>
+
+
+
+
 
     <div class="titulo-merch"><h2>ROAD MERCH</h2></div>
 
+    <!--merch primerea idea
     <section class="gallery-container-merch">
 
         <div class="gallery-item-merch">
@@ -51,8 +106,71 @@
           <img src="../assets/merch-totebag.jpg" alt="Descripción de la imagen 4">
         </div>
       </section>
+-->
 
-      <div class="titulo-merch"><h2>PROXIMAMENTE</h2></div>
+<div class="merch">
+  <div class="merch-items">
+    <img src="../assets/merch-gorro.jpg">
+    <div class="contenido-merch">
+        <div class="contenido-sub">
+            <h5>Jockey</h5>
+            <h5 class="precio"> $8 </h5>
+        </div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit reiciendis nam non quia! Earum eveniet minus. Facilis explicabo natus nihil voluptatem eveniet pariatur.</p>
+        <button>La quiero</button>
+    </div>
+  </div>
+
+
+  <div class="merch-items">
+    <img src="../assets/merch-gorrolana.jpg">
+    <div class="contenido-merch">
+        <div class="contenido-sub">
+            <h5>Gorro lana</h5>
+            <h5 class="precio"> $8 </h5>
+        </div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit reiciendis nam non quia! Earum eveniet minus. Facilis explicabo natus nihil voluptatem eveniet pariatur.</p>
+        <button>La quiero</button>
+    </div>
+  </div>
+
+
+
+  
+  <div class="merch-items">
+    <img src="../assets/merch-polera.png">
+    <div class="contenido-merch">
+        <div class="contenido-sub">
+            <h5>Polera</h5>
+            <h5 class="precio"> $8 </h5>
+        </div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit reiciendis nam non quia! Earum eveniet minus. Facilis explicabo natus nihil voluptatem eveniet pariatur.</p>
+        <button>La quiero</button>
+    </div>
+  </div>
+
+
+  
+  <div class="merch-items">
+    <img src="../assets/merch-totebag.jpg">
+    <div class="contenido-merch">
+        <div class="contenido-sub">
+            <h5> Tote Bag</h5>
+            <h5 class="precio"> $8 </h5>
+        </div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit reiciendis nam non quia! Earum eveniet minus. Facilis explicabo natus nihil voluptatem eveniet pariatur.</p>
+        <button>La quiero</button>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+ <!--javabootstrap-->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
 
 
 </body>
