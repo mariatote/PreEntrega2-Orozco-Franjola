@@ -20,6 +20,8 @@
 <!--css-->
 <link rel="stylesheet" href="../css/estilos.css">
 
+
+
 </head>
 
 <body>
@@ -29,7 +31,7 @@
 
    
     
-    <nav class="navbar navbar-expand-md  mb-4 fs-4"   style="bg:#FFF ;">
+    <nav class="navbar navbar-expand-md   fs-4"   style="bg:#FFF ;">
       <div class="container-fluid">
       <!-- icono o nombre -->
 
@@ -75,71 +77,36 @@
           
         </ul>
 
-       
-
-
-        
         
       </div>
-   
       </div>  
     </nav>
+<!-- FIN del menu colapsable -->
 
 
-<div class="contacto">
 
-<h3>Escribenos</h3>
-<br>
-    <form action="procesar.php" method="post">
-        <div>
-          <!-- input nombre-->
-          <label for="Nombre:">Nombre</label> 
-          <input type="text" name="Nombre" placeholder="escribe tu nombre">
-        </div>
-        
-        <div>
-          <!-- input apellido -->
-            <label for="Nombre:">apellido</label> 
-            <input type="text" name="apellido" placeholder="escribe tu apellido">
-        </div>
-        
-        <div>
-          <!-- input mail -->
-          <label for="email">Email</label>
-          <input type="texto" name="email" placeholder="tumail@mail.com">
-        </div>
-        
-        
-          <!--input pass  -->
-          <label for="clave">contraseña</label>
-          <input type="clave" name="email" placeholder="*******" required="">
-        
-        
-        <!-- radio -->
-        <h3>selecione su género</h3>
-        <di>
-          <label for="genero">Femenino</label>
-          <input type="radio" name="Femenino" value="femenino">
-        </di>
-        
-        <div>
-          <label for="genero">Masculino</label>
-          <input type="radio" name="Masculino" value="Masculino">
-        </div>
-        
-        <div>
-          <label for="genero">Otre</label>
-          <input type="radio" name="Otre" value="Otre">
-        </div>
-        
-        
-        <!-- enviar -->
-        <button type="submit">enviar</button>
-        <button type="reset">Borrar formulario</button>
-        
-    </form>
+<!--inicio Contacto-->
 
-    </div>
+<div class="container-fluid contacto1">
+  <div class="row pt-5">
+      <form  class="mt-5 col-5 ">
+          <div class="mb-4">
+            <label for="exampleInputEmail1" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+  </div>
+</div>
 
 
 
@@ -194,8 +161,8 @@
   </div>
 </footer>
 
-
-
+</main>
+-->
 
  <!--javabootstrap-->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
