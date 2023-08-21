@@ -1,11 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Rubik+Mono+One&display=swap");
 nav {
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  background-image: linear-gradient(to right, #ffffff 0%, #c0c0c0 100%);
 }
 
 body {
   background-color: hsl(0, 0%, 100%);
-  font-family: sans-serif;
   margin: 0px;
+}
+
+h2 {
+  color: #FF5733;
+  font-weight: 900;
+  font-family: "montserrat";
+}
+
+h3 {
+  color: #FF5733;
+  font-weight: 400;
+  font-family: "montserrat";
 }
 
 .header {
@@ -49,9 +61,7 @@ body {
 /*index slider*/
 .slider {
   width: 80%;
-  height: 460px;
-  align-content: center;
-  background-color: black;
+  height: auto;
 }
 
 .imagen-slider {
@@ -266,6 +276,10 @@ header{
   grid-row-gap: 15px;
 }
 
+.contenido h2 {
+  color: #FF5733;
+}
+
 .contenido-merch > p {
   color: #6f6f6f;
   font-size: 15px;
@@ -277,7 +291,7 @@ header{
 .contenido-merch > button {
   background-color: #FF5733;
   border: none;
-  color: #ffffff;
+  color: #fff;
   font-size: 16px;
   font-weight: 600;
   border-radius: 5px;
@@ -287,7 +301,7 @@ header{
 
 .contenido-merch > button:hover {
   transform: translate(9px);
-  background-color: #B24C63;
+  background-color: #FF5733;
 }
 
 /*delivery*/
@@ -313,7 +327,7 @@ header{
 .caja2 {
   height: 350px;
   width: 450px;
-  background-color: #de7a63;
+  background-color: #FF5733;
   float: left;
   padding-left: 12px;
 }
@@ -328,7 +342,7 @@ header{
   height: 400px;
   width: 80%;
   justify-content: space-around;
-  background-color: #ffffff;
+  background-color: #fff;
   margin: auto;
   padding: 10px 30px;
   line-height: 3;
@@ -355,6 +369,17 @@ header{
   margin: auto;
   margin-top: 40px;
   color: #FF5733;
+}
+
+/*Quienes somos*/
+.quienessomos {
+  background-image: url(../assets/fondo-burger2.jpg);
+}
+
+h1 {
+  color: #FF5733;
+  font-weight: 900;
+  font-family: "montserrat";
 }
 
 /*contacto*/
@@ -387,25 +412,19 @@ header{
   align-items: center;
 }
 
-form {
-  background: #822929;
-  padding: 40px 0;
-  box-shadow: 0 0 6px 0 rgba(0, 120, 90, 0);
-  border-radius: 10px;
-}
-
 .form {
   width: 100%;
 }
 
-.h1 {
-  font-weight: 700;
-  font-family: "roboto";
+/*
+.h1{
+    font-weight: 700;
+    font-family: 'roboto';
 }
+
 
 /* The footer is fixed to the bottom of the page */
 footer {
-  position: fixed;
   bottom: 0;
 }
 
@@ -579,9 +598,14 @@ footer {
   color: #FF5733;
 }
 
+.form-control {
+  border-color: #FF5733;
+}
+
 form {
   width: 100vw;
   margin: auto;
+  padding: 50px;
   background-color: #fff;
 }
 
