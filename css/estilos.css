@@ -58,7 +58,27 @@ h3 {
   box-shadow: 0 3px 0 0;
 }
 
+/* inicio Proteinass*/
+.proteinas {
+  border: 20px;
+  border-color: #FF5733;
+  margin-top: 50px;
+}
+
+.row .proteinas {
+  margin-bottom: 20px;
+}
+
+.col {
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
 /*index slider*/
+.carousel {
+  interval: 1000;
+}
+
 .slider {
   width: 80%;
   height: auto;
@@ -87,15 +107,16 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  height: 400px;
 }
 
 .contenedor-video {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
-  margin-top: 30px;
+  height: 400px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .contenedor-video iframe {
@@ -607,16 +628,6 @@ form {
   margin: auto;
   padding: 50px;
   background-color: #fff;
-}
-
-/*slider*/
-.d-item {
-  height: 400px;
-}
-
-.d-img {
-  height: 100%;
-  object-fit: cover;
 }
 
 /*# sourceMappingURL=estilos.css.map */
